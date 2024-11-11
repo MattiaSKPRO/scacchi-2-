@@ -1,0 +1,12 @@
+div:hover{
+    background-color: yellow;
+}
+
+
+.black{
+    width: 300px;
+    border: 15px solid fuchsia;
+    padding: 50px;
+    margin: 20px;
+    background-color: black;
+}
