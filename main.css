@@ -1,12 +1,40 @@
-div:hover{
-    background-color: yellow;
-}
+.campo_gioco {
+    width: 700px;
+    margin: 10;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+    }
+    
+    .campo_gioco td {
+    vertical-align: middle;
+    font-size: 32px;
 
+    border: 1px solid #f7f3f3;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    min-height: 75px;
+    }
+    
+    
+    .campo_gioco th {
+    border: none;
+    vertical-align: center;
+    text-align: center;
+    width: 60px;
+    height: 75px;
+    min-height: 75px;
+    padding-right: px;
+    }
+    
+ td:hover {
+    background-color: rgba(99, 45, 226, 0.562);
 
-.black{
-    width: 300px;
-    border: 15px solid fuchsia;
-    padding: 50px;
-    margin: 20px;
-    background-color: black;
-}
+    }
+    
+    
+    .black {background: #7a5715;}
+    .withe {background: #f7f4f4;}
+
